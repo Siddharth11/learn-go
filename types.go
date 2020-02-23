@@ -19,4 +19,10 @@ func main() {
 	fmt.Println("\nVariable \"name2\" has value:", name2, "and inferred type:", reflect.TypeOf(name2))
 
 	fmt.Println("\nVariable \"age2\" has value:", age2, "and type:", reflect.TypeOf(age2))
+
+	marks1 := 50.5
+	marks2 := 49
+	combinedMarks := int(marks1) + marks2
+	fmt.Println("Combined marks:", combinedMarks)
+
 }
